@@ -40,17 +40,5 @@ if (result) {
     console.log(board)
 }
 
-[result, board] = play("X", 9);
-if (result) {
-    printBoard(board)
-} else {
-    console.log(board)
-}
 
-[result, board] = play("O", 6);
-if (result) {
-    printBoard(board)
-} else {
-    console.log(board)
-}
 
